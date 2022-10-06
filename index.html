@@ -73,7 +73,9 @@
       <section class="top-section">
         <div class="container top-container">
           <h1 class="top-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="top-btn btn" type="button">Замовити послугу</button>
+          <button class="top-btn btn" type="button" data-modal-open>
+            Замовити послугу
+          </button>
         </div>
       </section>
       <section class="features section">
@@ -142,6 +144,9 @@
                 width="370"
                 height="294"
               />
+              <div class="direction-container">
+                <p class="direction-title">Десктопні додатки</p>
+              </div>
             </li>
             <li class="direction-item">
               <img
@@ -151,6 +156,9 @@
                 width="370"
                 height="294"
               />
+              <div class="direction-container">
+                <p class="direction-title">Мобільні додатки</p>
+              </div>
             </li>
             <li class="direction-item">
               <img
@@ -160,6 +168,9 @@
                 width="370"
                 height="294"
               />
+              <div class="direction-container">
+                <p class="direction-title">Дизайнерські рішення</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -485,6 +496,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-btn" data-modal-close>
+          <svg class="icon-modal-close" width="11" height="11">
+            <use href="./images/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>
