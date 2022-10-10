@@ -146,13 +146,6 @@ body {
   align-items: center;
   gap: 50px;
 }
-.header-contact-list {
-  display: flex;
-  margin-left: auto;
-  gap: 50px;
-  align-items: baseline;
-  justify-content: center;
-}
 
 .header .logo span {
   color: var(--black-color);
@@ -181,7 +174,15 @@ body {
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
-  bottom: -2px;
+  bottom: -1px;
+}
+
+.header-contact-list {
+  display: flex;
+  margin-left: auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: baseline;
 }
 
 .header-contact-link {
