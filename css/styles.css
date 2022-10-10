@@ -181,6 +181,7 @@ body {
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
+  bottom: -2px;
 }
 
 .header-contact-link {
