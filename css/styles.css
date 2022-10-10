@@ -182,7 +182,7 @@ body {
   margin-left: auto;
   gap: 30px;
   align-items: center;
-  justify-content: baseline;
+  justify-content: center;
 }
 
 .header-contact-link {
